@@ -1,0 +1,98 @@
+@font-face {
+    font-family:GESSTwoBold ;
+    src: url('fonts/GESSTwoBold.otf');
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:GESSTwoBold ,Arial,sans-serif ;
+  color:#602248;
+}
+.row{margin: 0}
+.c-main{color:#602248 !important;}
+.c-white{color: white;}
+.bg-main{background-color:#602248;}
+.bg-main-light{background-color: #eee5eb}
+
+/*=============================>> NAV */
+.nav-icon{background-color: #fff; color: #1c7430; border:1px solid #602248; border-radius: 50%; width: fit-content; margin: 10px auto; }
+.nav-icon:hover{background: linear-gradient(#956c85,#3a142b);;}
+.fas,.far{font-size: 35px;}
+.home-ico{padding:12px 11px;}
+.info-ico{padding:13px 24px;}
+.calender-ico{padding:13px 15px;}
+.shopping-ico{padding:13px 12px;}
+.camera-ico{padding:13px 12px;}
+/*================================*/
+/*===============================>>> SLIDER*/
+.price-at-slider{color: white; background-color: rgba(96,34,72,.7);display: flex;align-items: center;justify-content: center}
+.centerialize{display: flex;align-items: center;justify-content: center}
+.border-bottom-price{border-bottom: 7px solid #ddd;}
+
+.carousel-indicators li {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+      background-color: #602248;
+
+}
+.carousel-indicators .active {
+    background-color: #a55483;
+}
+
+/*==================================*/
+.circle-title {
+   width:140px;
+   height:140px;
+   border-radius: 50%;
+    background-color:#602248 ;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+   position: relative;
+    border: 2px solid white;
+}
+.circle-title h2 {margin: auto 0px; display: inline-block;}
+.section-shadow-t-b{
+    position: relative;
+}
+.section-shadow-t-b:before {
+    position: absolute;
+    z-index: -1;
+    top: 13px; left: 0%; /* change these to change the shadow offset */
+    /* change this to change width = horizontal spread of the shadow */
+    width: 100%;
+    /* change this to change height = vertical spread of the shadow */
+    height: 100%;
+    background: -webkit-radial-gradient(#fff, #888 , rgba(0, 0, 0, 0));
+    background: radial-gradient(#fff,#888 , rgba(0, 0, 0, 0));
+    content: '';
+    border-radius: 5%;
+}
+
+
+.title-shadow:before {
+    position: absolute;
+    z-index: 1;
+    top: 135px; left:10%; /* change these to change the shadow offset */
+    /* change this to change width = horizontal spread of the shadow */
+    width: 80%;
+    /* change this to change height = vertical spread of the shadow */
+    height: 10px;
+    background: -webkit-radial-gradient( #888 , rgba(0, 0, 0, 0));
+    background: radial-gradient(#888 , rgba(0, 0, 0, 0));
+    content: '';
+    border-radius: 50%;
+}
+.contain-title{position: absolute; top: -60px;}
+.contain-goals-container{
+    top: -50px;}
+.goal{border-radius: 100px;}
+#map{height: 400px; }
+
+.sm-container{width: 100%; height: 200px; border-radius: 0 0 1000px 1000px}
+.common-s-m-main{width: fit-content; margin: 0px auto;}
+.facebook-main{padding: 15px 15px; border-radius: 50%}
+.fs-1-5vw{font-size:1.5vw !important}
